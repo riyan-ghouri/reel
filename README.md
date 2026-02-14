@@ -16,10 +16,46 @@ The server acts as a lightweight proxy between the client and Instagram’s medi
 - **Environment variables** for sensitive data
 
 ---
+## Tech Stack
+
+- **Node.js**
+- **Express.js**
+- **Fetch API**
+- **Stream handling**
+- **Environment variables** for sensitive data
+
+---
 
 ## How to Run Locally
 
 ### 1. Clone the repository
+
 ```bash
+
 git clone https://github.com/riyan-ghouri/reel.git
+
 cd reel
+
+```
+
+## Install dependencies
+
+
+
+```bash
+
+npm install
+
+```
+## Start the server
+
+```bash
+
+node server.js
+
+```
+## How to Use the API
+```bash
+
+GET /download?url=<INSTAGRAM_REEL_OR_VIDEO_URL>
+
