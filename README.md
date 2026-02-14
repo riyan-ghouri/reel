@@ -22,4 +22,4 @@ The server acts as a lightweight proxy between the client and Instagram’s medi
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/riyan-ghouri/reel.git
-cd Instagram-Video-Downloader-API
+cd reel
